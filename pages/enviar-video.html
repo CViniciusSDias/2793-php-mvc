@@ -32,7 +32,7 @@
 
     <main class="container">
 
-        <form class="container__formulario">
+        <form class="container__formulario" action="/novo-video.php" method="post">
             <h2 class="formulario__titulo">Envie um vídeo!</h3>
                 <div class="formulario__campo">
                     <label class="campo__etiqueta" for="url">Link embed</label>
