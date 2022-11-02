@@ -5,11 +5,9 @@ declare(strict_types=1);
 namespace Alura\Mvc\Controller;
 
 use Alura\Mvc\Repository\VideoRepository;
-use PDO;
 
-class VideoListController
+class VideoListController implements Controller
 {
-
     public function __construct(private VideoRepository $videoRepository)
     {
     }

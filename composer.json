@@ -3,5 +3,9 @@
         "psr-4": {
             "Alura\\Mvc\\": "src/"
         }
+    },
+    "require": {
+        "php": ">8.1",
+        "ext-pdo": "*"
     }
 }
