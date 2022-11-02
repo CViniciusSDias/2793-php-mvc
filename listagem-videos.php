@@ -1,11 +1,3 @@
-<?php
-
-$dbPath = __DIR__ . '/banco.sqlite';
-$pdo = new PDO("sqlite:$dbPath");
-$repository = new \Alura\Mvc\Repository\VideoRepository($pdo);
-$videoList = $repository->all();
-
-?>
 <?php require_once 'inicio-html.php'; ?>
     <ul class="videos__container">
         <?php foreach ($videoList as $video): ?>
